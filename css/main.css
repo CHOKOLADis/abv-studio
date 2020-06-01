@@ -43,7 +43,6 @@ p.animated{
     z-index: -1;
     margin-top: 118px;
     position: absolute;
-    width: 100%;
 }
 .imgs{
     display: flex;
