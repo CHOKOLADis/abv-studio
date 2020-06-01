@@ -1,0 +1,1 @@
+"use strict";$("document").ready(function(){setTimeout(function(){$("p.animated").css("opacity","1"),$("p.animated").addClass("slideInRight")},2e3)});

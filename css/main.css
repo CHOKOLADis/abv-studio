@@ -1,0 +1,60 @@
+*{
+    transition: .3s all;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+section{
+    margin-top: 62px;
+}
+.title{
+    background: #FF97E2;
+    color: black;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 124px;
+    color: #000000;
+    z-index: 2;
+    right: 0;
+    position: absolute;
+    padding: 30px 50px;
+    padding-right: 250px;
+    cursor: default;
+}
+.logo:hover{
+    color: #F0F35B;
+}
+p{
+    margin: 0;
+}
+p:hover{
+    color: #F0F35B;
+}
+p.animated{
+    opacity: 0;
+}
+.offer{
+    background: #F0F35B;
+    width: 1702px;
+    height: 516px;
+    z-index: -1;
+    margin-top: 118px;
+    position: absolute;
+    width: 100%;
+}
+.imgs{
+    display: flex;
+}
+.man{
+    left: -200px;
+    position: absolute;
+    bottom: -65px;
+}
+.woman{
+    right: 0;
+    position: absolute;
+    bottom: -80px;
+}
