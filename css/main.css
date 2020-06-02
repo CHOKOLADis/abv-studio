@@ -38,7 +38,7 @@ p.animated{
 }
 .offer{
     background: #F0F35B;
-    width: 1702px;
+    width: 90%;
     height: 516px;
     z-index: -1;
     margin-top: 118px;
@@ -56,4 +56,70 @@ p.animated{
     right: 0;
     position: absolute;
     bottom: -80px;
+}
+
+/* w1200-w1920*/
+@media screen and (max-width:1920px){
+    .title{
+        font-size: 56px;
+        line-height: 110px;
+        padding-right: 180px;
+    }
+    .man{
+        bottom: -195px;
+    }
+    .woman{
+        bottom: -65%;
+    }
+}
+/* w960-w1200*/
+@media screen and (max-width:1200px){
+    .title{
+        font-size: 45px;
+        line-height: 90px;
+    }
+    .man{
+        bottom: -55%;
+    }
+    .woman{
+        bottom: -55%;
+    }
+}
+
+/* w720-w960*/
+@media screen and (max-width:960px){
+    section{
+        margin-top: 350px;
+    }
+    .title{
+        font-size: 36px;
+        line-height: 60px;
+        padding-right: 8vh;
+    }
+    .offer{
+        height: 40%;
+    }
+    .man{
+        z-index: -5;
+        top: 0;
+        bottom: 0;
+    }
+    .woman{
+        bottom: -84%;
+    }
+}
+
+/* w720-w960*/
+@media screen and (max-width:720px){
+    body{
+        overflow-x: hidden;
+    }
+    .title{
+        font-size: 4.5vh;
+        line-height: 40px;
+        padding: 3vh 4vh;
+    }
+    .woman{
+        bottom: -480px;
+    }
 }
