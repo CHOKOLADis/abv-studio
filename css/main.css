@@ -5,7 +5,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
-    
 }
 section{
     margin-top: 62px;
@@ -59,17 +58,18 @@ p.animated{
 }
 
 /* w1200-w1920*/
-@media screen and (max-width:1920px){
+@media screen and (min-width:1200px){
     .title{
-        font-size: 56px;
-        line-height: 110px;
-        padding-right: 180px;
+        font-size: 7vh;
+        line-height: 105px;
+        padding-right: 13%;
     }
     .man{
         bottom: -195px;
     }
     .woman{
-        bottom: -65%;
+        bottom: 0;
+        top: 600px;
     }
 }
 /* w960-w1200*/
@@ -79,10 +79,10 @@ p.animated{
         line-height: 90px;
     }
     .man{
-        bottom: -55%;
+        bottom: -20%;
     }
     .woman{
-        bottom: -55%;
+        bottom: -25%;
     }
 }
 
@@ -105,7 +105,7 @@ p.animated{
         bottom: 0;
     }
     .woman{
-        bottom: -84%;
+        bottom: -37%;
     }
 }
 
@@ -120,6 +120,6 @@ p.animated{
         padding: 3vh 4vh;
     }
     .woman{
-        bottom: -480px;
+        bottom: -28%;
     }
 }
